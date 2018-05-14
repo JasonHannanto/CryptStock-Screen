@@ -8,6 +8,7 @@ MERN Project exploring connecting API endpoints and displaying to the user. Curr
 - Implement user ability to search stock ticker and display stock information
 - Make it actually look nice...
 - Implement user system
+- Deploy webapp
 
 ## Currently Implemented
 
@@ -62,4 +63,3 @@ Compilation
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-

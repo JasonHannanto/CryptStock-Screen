@@ -34,7 +34,10 @@ module.exports = {
       {
         test: /\.jsx?$/,
         include: helpers.root('client'),
-        loader: 'babel-loader'
+        loader: 'babel-loader',
+        options: {
+          presets: ["@babel/preset-env","@babel/preset-react"]
+        }
       },
 
       // SCSS files
