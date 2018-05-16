@@ -58,10 +58,8 @@ const StockInfo = (props) => {
                 <br/>
                 <small className="date">{oldestDate} <strong>-</strong> {lastRefreshed}</small>
             </PageHeader>
-            {/* <p>Ticker: {ticker}</p>
-            <p>Date: {oldestDate} - {lastRefreshed}</p> */}
             <br />
-            <LineChart width={1000} height={300} data={rows} interval={0}
+            <LineChart width={500} height={300} data={rows} interval={0}
                 margin={{top: 5, right: 30, left: 20, bottom: 5}}>
             <XAxis dataKey="dateLabel"/>
             <YAxis/>

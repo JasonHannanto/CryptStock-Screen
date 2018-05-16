@@ -3,6 +3,9 @@ import 'whatwg-fetch';
 
 const Home = () => (
   <div class="test" align="center">
+    <div>
+      
+    </div>
     <p><a href="/profile">Stock API Connection</a></p>
     <p><a href="/cryptscreen">Crypto API Connection</a></p>
   </div>

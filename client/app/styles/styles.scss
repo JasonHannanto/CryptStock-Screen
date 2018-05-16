@@ -1,9 +1,11 @@
 @charset "UTF-8";
-
+@import 'loading';
 @import 'vendor/normalize';
-
+@import 'navbar';
 .mainDash{
-    text-align: center,
+    text-align: center;
+    width: 50%;
+    float: left;
 }
 
 .mainDash > *{

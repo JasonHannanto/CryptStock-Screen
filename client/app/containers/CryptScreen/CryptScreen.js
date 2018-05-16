@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import Cryptinfo from '../../components/Profile/CryptInfo'
-import '../../styles/loading.scss';
+import CryptInfo from '../../components/Profile/CryptInfo'
+// import '../../styles/loading.scss';
+
 class CryptScreen extends Component {
     constructor(props) {
         super(props);
