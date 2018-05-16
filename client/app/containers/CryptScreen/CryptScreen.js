@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Cryptinfo from '../../components/Profile/CryptInfo'
-
+import '../../styles/loading.scss';
 class CryptScreen extends Component {
     constructor(props) {
         super(props);
@@ -50,9 +50,15 @@ class CryptScreen extends Component {
         //LOADING
         if(isLoading){
             return(
-                <div>
-                    <p>Loading...</p>
+                <div className="quiver">
+                    <span className="arrows st"></span>
+                    <span className="arrows nd"></span>
+                    <span className="arrows rd"></span>
+                    <span className="arrows th"></span>
+                    <span className="arrows fth"></span>
+                    <span className="loading">Loading</span>
                 </div>
+                
             );
         }
 
@@ -64,7 +70,6 @@ class CryptScreen extends Component {
                         {error}
                     </p>
                 </div>
-                
             )
         }
 

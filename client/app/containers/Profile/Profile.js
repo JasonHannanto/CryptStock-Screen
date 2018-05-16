@@ -54,9 +54,15 @@ class Profile extends Component {
         //LOADING
         if(isLoading){
             return(
-                <div>
-                    <p>Loading...</p>
+                <div className="quiver">
+                    <span className="arrows st"></span>
+                    <span className="arrows nd"></span>
+                    <span className="arrows rd"></span>
+                    <span className="arrows th"></span>
+                    <span className="arrows fth"></span>
+                    <span className="loading">Loading</span>
                 </div>
+                
             );
         }
 
