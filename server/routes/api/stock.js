@@ -7,7 +7,7 @@ module.exports = (app) => {
         //Assuming: look up user => retrieve ticker symbols
 
         const apiKey = '5AUPVHXGU4BVDRI2'; //TODO: move to backend...
-        const tickers = ['MSFT'];        //Array of tickers to retrieve info on 
+        const tickers = ['INTC','FB','GOOGL','MSFT','ROKU'];        //Array of tickers to retrieve info on 
         let completed = 0;               //Tracks how many requests have been completed
         const results = [];              //Returns stock information for each ticker
 

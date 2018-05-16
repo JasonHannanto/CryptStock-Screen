@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import StockInfo from '../../components/Profile/StockInfo'
 
+import '../../styles/profile.scss';
+
 class Profile extends Component {
     constructor(props) {
         super(props);
@@ -72,7 +74,9 @@ class Profile extends Component {
 
         return(
             <div>
-                <p>Profile</p>
+                <div id="title"> 
+                    <p>Portfolio</p>
+                </div>
                 {
                     results.map(result => <StockInfo data={result}/>)
                 }

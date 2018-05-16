@@ -69,7 +69,7 @@ class CryptScreen extends Component {
         }
 
         return(
-            <div>
+            <div className="test">
                 <p>CryptScreen</p>
                 {
                     results.map(result => <StockInfo data={result}/>)

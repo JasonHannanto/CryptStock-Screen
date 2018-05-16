@@ -1,5 +1,6 @@
 import React from 'react';
 import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import {PageHeader} from 'react-bootstrap';
 
 const StockInfo = (props) => {
     const {
@@ -40,6 +41,7 @@ const StockInfo = (props) => {
         }
     }
 
+    const oldestDate = rows[rows.length-1]['dateLabel'];
     rows.sort((a, b) => {
         return a.date - b.date; // this is also valid too
         //return a.date > b.date ? 1 : -1;
@@ -50,12 +52,16 @@ const StockInfo = (props) => {
 
 
     return (
-        <div>
-            <p>{ticker}</p>
-            <p>{lastRefreshed}</p>
-            <p>{ticker}</p>
+        <div className="mainDash">
+            <PageHeader className="tickerInfo">
+                {ticker}
+                <br/>
+                <small className="date">{oldestDate} <strong>-</strong> {lastRefreshed}</small>
+            </PageHeader>
+            {/* <p>Ticker: {ticker}</p>
+            <p>Date: {oldestDate} - {lastRefreshed}</p> */}
             <br />
-            <LineChart width={600} height={300} data={rows}
+            <LineChart width={1000} height={300} data={rows} interval={0}
                 margin={{top: 5, right: 30, left: 20, bottom: 5}}>
             <XAxis dataKey="dateLabel"/>
             <YAxis/>
