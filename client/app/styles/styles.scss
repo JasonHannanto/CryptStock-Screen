@@ -1,7 +1,9 @@
 @charset "UTF-8";
 @import 'loading';
 @import 'vendor/normalize';
+@import 'mainpage';
 @import 'navbar';
+
 .mainDash{
     text-align: center;
     width: 50%;
@@ -11,4 +13,10 @@
 .mainDash > *{
     text-align: center;
     margin: auto;
+}
+
+html, body {
+    margin: 0px;
+    background: white;
+    height: 100%;
 }
