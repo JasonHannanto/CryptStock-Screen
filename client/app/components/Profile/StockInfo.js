@@ -9,14 +9,15 @@ const StockInfo = (props) => {
 
     //META DATA
     const ticker = data['Meta Data']['2. Symbol'];
-    const lastRefreshed = data['Meta Data']['3. Last Refreshed'];
+    const lastRefreshed = data['Meta Data']['3. Last Refreshed']; //2018-05-17 13:26:24
     const timezone = data['Meta Data']['5. Time Zone'];
     //DATA
     const timeSeries = data['Time Series (Daily)'];
 
     const rows = [];
-    const lastPrice = timeSeries[lastRefreshed]["4. close"];
 
+    
+    const lastPrice = timeSeries[lastRefreshed.substring(0,10)]['4. close'];
     //Key = Date, loop through each date
     for (var key in timeSeries) {
         //Check if property is not inherited from prototype
@@ -59,7 +60,7 @@ const StockInfo = (props) => {
                 <br/>
                 ${lastPrice}
                 <br/>
-                <small className="date">{oldestDate} <strong>-</strong> {lastRefreshed}</small>
+                <small className="date">{oldestDate} <strong>-</strong> {lastRefreshed.substring(0,10)}</small>
             </PageHeader>
             <br />
             <LineChart width={500} height={300} data={rows} interval={0}
