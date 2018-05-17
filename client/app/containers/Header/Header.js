@@ -16,7 +16,7 @@ const Header = () => (
       <NavItem eventKey={2} href="/profile">
         Stock Portfolio
       </NavItem>
-      <NavItem eventKey={2} href="/cryptscreen">
+      <NavItem eventKey={2} href="/profile">
         Crypto Portfolio
       </NavItem>
     </Nav>

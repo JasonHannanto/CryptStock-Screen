@@ -2,6 +2,11 @@
 
 MERN Project exploring connecting API endpoints and displaying to the user. Currently still in development, but uploading to maintain version control/progression of project.
 
+<br/>
+![Alt Text](https://i.imgur.com/LqQHErr.gif)
+<br/>
+[High Resolution Link](https://giant.gfycat.com/HiddenUnripeIchneumonfly.webm)
+<br>
 ## Built With
 
 Front End:

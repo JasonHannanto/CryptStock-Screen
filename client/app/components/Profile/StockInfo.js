@@ -15,6 +15,7 @@ const StockInfo = (props) => {
     const timeSeries = data['Time Series (Daily)'];
 
     const rows = [];
+    const lastPrice = timeSeries[lastRefreshed]["4. close"];
 
     //Key = Date, loop through each date
     for (var key in timeSeries) {
@@ -55,6 +56,8 @@ const StockInfo = (props) => {
         <div className="mainDash">
             <PageHeader className="tickerInfo">
                 {ticker}
+                <br/>
+                ${lastPrice}
                 <br/>
                 <small className="date">{oldestDate} <strong>-</strong> {lastRefreshed}</small>
             </PageHeader>
