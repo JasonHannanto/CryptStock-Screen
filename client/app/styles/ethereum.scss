@@ -31,19 +31,19 @@
 }
 .elogo .u1 {
     transform: translateZ(50px) rotateX(23.5deg);  
-    border-bottom: 250px solid rgba(158,158,158,0.8);
+    border-bottom: 250px solid rgba(255,167,38,0.8);
 }
 .elogo .u2 { 
     transform: rotateY(90deg) translateZ(50px) rotateX(23.5deg);
-    border-bottom: 250px solid rgba(158,158,158,0.6);
+    border-bottom: 250px solid rgba(255,167,38,0.6);
 }
 .elogo .u3 { 
     transform: rotateY(180deg) translateZ(50px) rotateX(23.5deg); 
-    border-bottom: 250px solid rgba(158,158,158,0.3);
+    border-bottom: 250px solid rgba(255,167,38,0.3);
 }
 .elogo .u4 { 
     transform: rotateY(-90deg) translateZ(50px) rotateX(23.5deg); 
-    border-bottom: 250px solid rgba(158,158,158,0.3);
+    border-bottom: 250px solid rgba(255,167,38,0.3);
 }
 
 .elogo .ct { 
@@ -51,23 +51,23 @@
     height: 200px;
     border: 0;
     transform: rotateX(-90deg) translateZ(140px);
-    background-color: rgb(12, 12, 211);
+    background-color: rgb(255,167,38);
 }
 .elogo .l1 { 
     transform: translateY(55px) translateZ(50px) rotateX(156.5deg);
-    border-bottom: 250px solid rgba(158,158,158,0.8);
+    border-bottom: 250px solid rgba(255,167,38,0.8);
 }
 .elogo .l2 { 
     transform: translateY(55px) rotateY(90deg) translateZ(50px) rotateX(156.5deg);
-    border-bottom: 250px solid rgba(158,158,158,0.6);
+    border-bottom: 250px solid rgba(255,167,38,0.6);
 }
 .elogo .l3 { 
     transform: translateY(55px) rotateY(180deg) rotateZ(0deg) translateZ(50px) rotateX(156.5deg);
-  border-bottom: 250px solid rgba(158,158,158,0.3);
+  border-bottom: 250px solid rgba(255,167,38,0.3);
 }
 .elogo .l4 { 
     transform: translateY(55px) rotateY(-90deg) rotateZ(0deg) translateZ(50px) rotateX(156.5deg); 
-  border-bottom: 250px solid rgba(158,158,158,0.3);
+  border-bottom: 250px solid rgba(255,167,38,0.3);
 }
 
 @keyframes aniether {
