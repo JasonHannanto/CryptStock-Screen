@@ -10,20 +10,20 @@ const Home = () => (
   <div className="maindiv outer" align="center">
     <div className="middle">
       <div className="titlediv inner">
-        <div>
+        <div className="slogan">
           <p><strong>CryptStock Screen</strong> - A <br/>MERN Crypto/Stock <br/>Dashboard</p>
           <p id="subtag">Helping you reach the Moon</p>
           <button type="button" className="btn btn-primary" onClick={() => URL()}>GET STARTED</button> 
-          <div class="elogo">
-                <div class="trif u1"></div>
-                <div class="trif u2"></div>
-                <div class="trif u3"></div>
-                <div class="trif u4"></div>
-                <div class="ct"></div>
-                <div class="trif l1"></div>
-                <div class="trif l2"></div>
-                <div class="trif l3"></div>
-                <div class="trif l4"></div>
+          <div className="elogo">
+                <div className="trif u1"></div>
+                <div className="trif u2"></div>
+                <div className="trif u3"></div>
+                <div className="trif u4"></div>
+                <div className="ct"></div>
+                <div className="trif l1"></div>
+                <div className="trif l2"></div>
+                <div className="trif l3"></div>
+                <div className="trif l4"></div>
           </div>
         </div>
       </div>

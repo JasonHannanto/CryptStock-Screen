@@ -3,10 +3,10 @@ import {Navbar, NavItem, Nav, MenuItem} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => (
-  <Navbar>
+  <Navbar id="navbar-custom">
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="/">CryptStock Screen</a>
+        <a id="brand" href="/">CryptStock Screen</a>
       </Navbar.Brand>
     </Navbar.Header>
     <Nav>
