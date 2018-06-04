@@ -68,11 +68,6 @@ localhost:8080
 - Implement user system
 - Deploy webapp
 
-## Currently Implemented
-
-- Successful API connection with AlphaVantage/Coinmarketcap (localhost:8080/profile)
-- Stock chart display with hardcoded tickers (Future: Based of user's account information)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
